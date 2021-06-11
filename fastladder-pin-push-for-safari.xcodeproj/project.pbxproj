@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6D34016267392CB00BF5798 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D34015267392CB00BF5798 /* AppDelegate.swift */; };
+		E6D34019267392CB00BF5798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D34017267392CB00BF5798 /* Main.storyboard */; };
+		E6D3401B267392CB00BF5798 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3401A267392CB00BF5798 /* ViewController.swift */; };
+		E6D3401D267392CC00BF5798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D3401C267392CC00BF5798 /* Assets.xcassets */; };
+		E6D34028267392CC00BF5798 /* fastladder_pin_push_for_safariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D34027267392CC00BF5798 /* fastladder_pin_push_for_safariTests.swift */; };
+		E6D34033267392CC00BF5798 /* fastladder_pin_push_for_safariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D34032267392CC00BF5798 /* fastladder_pin_push_for_safariUITests.swift */; };
+		E6D3403A267392CC00BF5798 /* fastladder-pin-push-for-safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E6D34039267392CC00BF5798 /* fastladder-pin-push-for-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E6D3403F267392CC00BF5798 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D3403E267392CC00BF5798 /* Cocoa.framework */; };
+		E6D34042267392CC00BF5798 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D34041267392CC00BF5798 /* SafariWebExtensionHandler.swift */; };
+		E6D34045267392CD00BF5798 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = E6D34044267392CD00BF5798 /* _locales */; };
+		E6D34047267392CD00BF5798 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E6D34046267392CD00BF5798 /* images */; };
+		E6D34049267392CD00BF5798 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E6D34048267392CD00BF5798 /* manifest.json */; };
+		E6D3404B267392CD00BF5798 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E6D3404A267392CD00BF5798 /* background.js */; };
+		E6D3404D267392CD00BF5798 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = E6D3404C267392CD00BF5798 /* content.js */; };
+		E6D3404F267392CD00BF5798 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = E6D3404E267392CD00BF5798 /* popup.html */; };
+		E6D34051267392CD00BF5798 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = E6D34050267392CD00BF5798 /* popup.css */; };
+		E6D34053267392CD00BF5798 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = E6D34052267392CD00BF5798 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6D34024267392CC00BF5798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D34009267392CB00BF5798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D34010267392CB00BF5798;
+			remoteInfo = "fastladder-pin-push-for-safari";
+		};
+		E6D3402F267392CC00BF5798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D34009267392CB00BF5798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D34010267392CB00BF5798;
+			remoteInfo = "fastladder-pin-push-for-safari";
+		};
+		E6D3403B267392CC00BF5798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D34009267392CB00BF5798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D34038267392CC00BF5798;
+			remoteInfo = "fastladder-pin-push-for-safari Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6D3405B267392CD00BF5798 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E6D3403A267392CC00BF5798 /* fastladder-pin-push-for-safari Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E6D34011267392CB00BF5798 /* fastladder-pin-push-for-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fastladder-pin-push-for-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D34014267392CB00BF5798 /* fastladder_pin_push_for_safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fastladder_pin_push_for_safari.entitlements; sourceTree = "<group>"; };
+		E6D34015267392CB00BF5798 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6D34018267392CB00BF5798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6D3401A267392CB00BF5798 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6D3401C267392CC00BF5798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6D3401E267392CC00BF5798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D34023267392CC00BF5798 /* fastladder-pin-push-for-safariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastladder-pin-push-for-safariTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D34027267392CC00BF5798 /* fastladder_pin_push_for_safariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastladder_pin_push_for_safariTests.swift; sourceTree = "<group>"; };
+		E6D34029267392CC00BF5798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D3402E267392CC00BF5798 /* fastladder-pin-push-for-safariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastladder-pin-push-for-safariUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D34032267392CC00BF5798 /* fastladder_pin_push_for_safariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastladder_pin_push_for_safariUITests.swift; sourceTree = "<group>"; };
+		E6D34034267392CC00BF5798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D34039267392CC00BF5798 /* fastladder-pin-push-for-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "fastladder-pin-push-for-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D3403E267392CC00BF5798 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E6D34041267392CC00BF5798 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		E6D34044267392CD00BF5798 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		E6D34046267392CD00BF5798 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		E6D34048267392CD00BF5798 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		E6D3404A267392CD00BF5798 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		E6D3404C267392CD00BF5798 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		E6D3404E267392CD00BF5798 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		E6D34050267392CD00BF5798 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		E6D34052267392CD00BF5798 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		E6D34054267392CD00BF5798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D34055267392CD00BF5798 /* fastladder_pin_push_for_safari_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fastladder_pin_push_for_safari_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6D3400E267392CB00BF5798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D34020267392CC00BF5798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3402B267392CC00BF5798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D34036267392CC00BF5798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3403F267392CC00BF5798 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6D34008267392CB00BF5798 = {
+			isa = PBXGroup;
+			children = (
+				E6D34013267392CB00BF5798 /* fastladder-pin-push-for-safari */,
+				E6D34026267392CC00BF5798 /* fastladder-pin-push-for-safariTests */,
+				E6D34031267392CC00BF5798 /* fastladder-pin-push-for-safariUITests */,
+				E6D34040267392CC00BF5798 /* fastladder-pin-push-for-safari Extension */,
+				E6D3403D267392CC00BF5798 /* Frameworks */,
+				E6D34012267392CB00BF5798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6D34012267392CB00BF5798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6D34011267392CB00BF5798 /* fastladder-pin-push-for-safari.app */,
+				E6D34023267392CC00BF5798 /* fastladder-pin-push-for-safariTests.xctest */,
+				E6D3402E267392CC00BF5798 /* fastladder-pin-push-for-safariUITests.xctest */,
+				E6D34039267392CC00BF5798 /* fastladder-pin-push-for-safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D34013267392CB00BF5798 /* fastladder-pin-push-for-safari */ = {
+			isa = PBXGroup;
+			children = (
+				E6D34014267392CB00BF5798 /* fastladder_pin_push_for_safari.entitlements */,
+				E6D34015267392CB00BF5798 /* AppDelegate.swift */,
+				E6D34017267392CB00BF5798 /* Main.storyboard */,
+				E6D3401A267392CB00BF5798 /* ViewController.swift */,
+				E6D3401C267392CC00BF5798 /* Assets.xcassets */,
+				E6D3401E267392CC00BF5798 /* Info.plist */,
+			);
+			path = "fastladder-pin-push-for-safari";
+			sourceTree = "<group>";
+		};
+		E6D34026267392CC00BF5798 /* fastladder-pin-push-for-safariTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D34027267392CC00BF5798 /* fastladder_pin_push_for_safariTests.swift */,
+				E6D34029267392CC00BF5798 /* Info.plist */,
+			);
+			path = "fastladder-pin-push-for-safariTests";
+			sourceTree = "<group>";
+		};
+		E6D34031267392CC00BF5798 /* fastladder-pin-push-for-safariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D34032267392CC00BF5798 /* fastladder_pin_push_for_safariUITests.swift */,
+				E6D34034267392CC00BF5798 /* Info.plist */,
+			);
+			path = "fastladder-pin-push-for-safariUITests";
+			sourceTree = "<group>";
+		};
+		E6D3403D267392CC00BF5798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3403E267392CC00BF5798 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6D34040267392CC00BF5798 /* fastladder-pin-push-for-safari Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E6D34041267392CC00BF5798 /* SafariWebExtensionHandler.swift */,
+				E6D34054267392CD00BF5798 /* Info.plist */,
+				E6D34055267392CD00BF5798 /* fastladder_pin_push_for_safari_Extension.entitlements */,
+				E6D34043267392CD00BF5798 /* Resources */,
+			);
+			path = "fastladder-pin-push-for-safari Extension";
+			sourceTree = "<group>";
+		};
+		E6D34043267392CD00BF5798 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6D34044267392CD00BF5798 /* _locales */,
+				E6D34046267392CD00BF5798 /* images */,
+				E6D34048267392CD00BF5798 /* manifest.json */,
+				E6D3404A267392CD00BF5798 /* background.js */,
+				E6D3404C267392CD00BF5798 /* content.js */,
+				E6D3404E267392CD00BF5798 /* popup.html */,
+				E6D34050267392CD00BF5798 /* popup.css */,
+				E6D34052267392CD00BF5798 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6D34010267392CB00BF5798 /* fastladder-pin-push-for-safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D3405C267392CD00BF5798 /* Build configuration list for PBXNativeTarget "fastladder-pin-push-for-safari" */;
+			buildPhases = (
+				E6D3400D267392CB00BF5798 /* Sources */,
+				E6D3400E267392CB00BF5798 /* Frameworks */,
+				E6D3400F267392CB00BF5798 /* Resources */,
+				E6D3405B267392CD00BF5798 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D3403C267392CC00BF5798 /* PBXTargetDependency */,
+			);
+			name = "fastladder-pin-push-for-safari";
+			productName = "fastladder-pin-push-for-safari";
+			productReference = E6D34011267392CB00BF5798 /* fastladder-pin-push-for-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6D34022267392CC00BF5798 /* fastladder-pin-push-for-safariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D3405F267392CD00BF5798 /* Build configuration list for PBXNativeTarget "fastladder-pin-push-for-safariTests" */;
+			buildPhases = (
+				E6D3401F267392CC00BF5798 /* Sources */,
+				E6D34020267392CC00BF5798 /* Frameworks */,
+				E6D34021267392CC00BF5798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D34025267392CC00BF5798 /* PBXTargetDependency */,
+			);
+			name = "fastladder-pin-push-for-safariTests";
+			productName = "fastladder-pin-push-for-safariTests";
+			productReference = E6D34023267392CC00BF5798 /* fastladder-pin-push-for-safariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6D3402D267392CC00BF5798 /* fastladder-pin-push-for-safariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D34062267392CD00BF5798 /* Build configuration list for PBXNativeTarget "fastladder-pin-push-for-safariUITests" */;
+			buildPhases = (
+				E6D3402A267392CC00BF5798 /* Sources */,
+				E6D3402B267392CC00BF5798 /* Frameworks */,
+				E6D3402C267392CC00BF5798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D34030267392CC00BF5798 /* PBXTargetDependency */,
+			);
+			name = "fastladder-pin-push-for-safariUITests";
+			productName = "fastladder-pin-push-for-safariUITests";
+			productReference = E6D3402E267392CC00BF5798 /* fastladder-pin-push-for-safariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E6D34038267392CC00BF5798 /* fastladder-pin-push-for-safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D34058267392CD00BF5798 /* Build configuration list for PBXNativeTarget "fastladder-pin-push-for-safari Extension" */;
+			buildPhases = (
+				E6D34035267392CC00BF5798 /* Sources */,
+				E6D34036267392CC00BF5798 /* Frameworks */,
+				E6D34037267392CC00BF5798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fastladder-pin-push-for-safari Extension";
+			productName = "fastladder-pin-push-for-safari Extension";
+			productReference = E6D34039267392CC00BF5798 /* fastladder-pin-push-for-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6D34009267392CB00BF5798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E6D34010267392CB00BF5798 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E6D34022267392CC00BF5798 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E6D34010267392CB00BF5798;
+					};
+					E6D3402D267392CC00BF5798 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E6D34010267392CB00BF5798;
+					};
+					E6D34038267392CC00BF5798 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = E6D3400C267392CB00BF5798 /* Build configuration list for PBXProject "fastladder-pin-push-for-safari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6D34008267392CB00BF5798;
+			productRefGroup = E6D34012267392CB00BF5798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6D34010267392CB00BF5798 /* fastladder-pin-push-for-safari */,
+				E6D34022267392CC00BF5798 /* fastladder-pin-push-for-safariTests */,
+				E6D3402D267392CC00BF5798 /* fastladder-pin-push-for-safariUITests */,
+				E6D34038267392CC00BF5798 /* fastladder-pin-push-for-safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6D3400F267392CB00BF5798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3401D267392CC00BF5798 /* Assets.xcassets in Resources */,
+				E6D34019267392CB00BF5798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D34021267392CC00BF5798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3402C267392CC00BF5798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D34037267392CC00BF5798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3404B267392CD00BF5798 /* background.js in Resources */,
+				E6D34051267392CD00BF5798 /* popup.css in Resources */,
+				E6D3404F267392CD00BF5798 /* popup.html in Resources */,
+				E6D34047267392CD00BF5798 /* images in Resources */,
+				E6D34049267392CD00BF5798 /* manifest.json in Resources */,
+				E6D34045267392CD00BF5798 /* _locales in Resources */,
+				E6D3404D267392CD00BF5798 /* content.js in Resources */,
+				E6D34053267392CD00BF5798 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6D3400D267392CB00BF5798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D3401B267392CB00BF5798 /* ViewController.swift in Sources */,
+				E6D34016267392CB00BF5798 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3401F267392CC00BF5798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D34028267392CC00BF5798 /* fastladder_pin_push_for_safariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D3402A267392CC00BF5798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D34033267392CC00BF5798 /* fastladder_pin_push_for_safariUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D34035267392CC00BF5798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D34042267392CC00BF5798 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6D34025267392CC00BF5798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D34010267392CB00BF5798 /* fastladder-pin-push-for-safari */;
+			targetProxy = E6D34024267392CC00BF5798 /* PBXContainerItemProxy */;
+		};
+		E6D34030267392CC00BF5798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D34010267392CB00BF5798 /* fastladder-pin-push-for-safari */;
+			targetProxy = E6D3402F267392CC00BF5798 /* PBXContainerItemProxy */;
+		};
+		E6D3403C267392CC00BF5798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D34038267392CC00BF5798 /* fastladder-pin-push-for-safari Extension */;
+			targetProxy = E6D3403B267392CC00BF5798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6D34017267392CB00BF5798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D34018267392CB00BF5798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6D34056267392CD00BF5798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6D34057267392CD00BF5798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E6D34059267392CD00BF5798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "fastladder-pin-push-for-safari Extension/fastladder_pin_push_for_safari_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RYZ4RB738;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "fastladder-pin-push-for-safari Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kenzan8000.fastladder-pin-push-for-safari.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6D3405A267392CD00BF5798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "fastladder-pin-push-for-safari Extension/fastladder_pin_push_for_safari_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RYZ4RB738;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "fastladder-pin-push-for-safari Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kenzan8000.fastladder-pin-push-for-safari.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E6D3405D267392CD00BF5798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fastladder-pin-push-for-safari/fastladder_pin_push_for_safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 6RYZ4RB738;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "fastladder-pin-push-for-safari/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kenzan8000.fastladder-pin-push-for-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6D3405E267392CD00BF5798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "fastladder-pin-push-for-safari/fastladder_pin_push_for_safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 6RYZ4RB738;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "fastladder-pin-push-for-safari/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kenzan8000.fastladder-pin-push-for-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E6D34060267392CD00BF5798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6RYZ4RB738;
+				INFOPLIST_FILE = "fastladder-pin-push-for-safariTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kenzan8000.fastladder-pin-push-for-safariTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastladder-pin-push-for-safari.app/Contents/MacOS/fastladder-pin-push-for-safari";
+			};
+			name = Debug;
+		};
+		E6D34061267392CD00BF5798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6RYZ4RB738;
+				INFOPLIST_FILE = "fastladder-pin-push-for-safariTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kenzan8000.fastladder-pin-push-for-safariTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastladder-pin-push-for-safari.app/Contents/MacOS/fastladder-pin-push-for-safari";
+			};
+			name = Release;
+		};
+		E6D34063267392CD00BF5798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6RYZ4RB738;
+				INFOPLIST_FILE = "fastladder-pin-push-for-safariUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kenzan8000.fastladder-pin-push-for-safariUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "fastladder-pin-push-for-safari";
+			};
+			name = Debug;
+		};
+		E6D34064267392CD00BF5798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6RYZ4RB738;
+				INFOPLIST_FILE = "fastladder-pin-push-for-safariUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kenzan8000.fastladder-pin-push-for-safariUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "fastladder-pin-push-for-safari";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6D3400C267392CB00BF5798 /* Build configuration list for PBXProject "fastladder-pin-push-for-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D34056267392CD00BF5798 /* Debug */,
+				E6D34057267392CD00BF5798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D34058267392CD00BF5798 /* Build configuration list for PBXNativeTarget "fastladder-pin-push-for-safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D34059267392CD00BF5798 /* Debug */,
+				E6D3405A267392CD00BF5798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D3405C267392CD00BF5798 /* Build configuration list for PBXNativeTarget "fastladder-pin-push-for-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D3405D267392CD00BF5798 /* Debug */,
+				E6D3405E267392CD00BF5798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D3405F267392CD00BF5798 /* Build configuration list for PBXNativeTarget "fastladder-pin-push-for-safariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D34060267392CD00BF5798 /* Debug */,
+				E6D34061267392CD00BF5798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D34062267392CD00BF5798 /* Build configuration list for PBXNativeTarget "fastladder-pin-push-for-safariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D34063267392CD00BF5798 /* Debug */,
+				E6D34064267392CD00BF5798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6D34009267392CB00BF5798 /* Project object */;
+}
